@@ -1,0 +1,32 @@
+name: resbaz
+channels:
+  - nordicesmhub
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - numpy
+  - xarray
+  - cartopy
+  - matplotlib
+  - netcdf4
+  - geopandas
+  - tqdm
+  - rasterio
+  - pandoc
+  - html5lib
+  - ipython_genutils
+  - ipyvolume
+  - ipywidgets
+  - jupyter_latex_envs
+  - jupyter_contrib_nbextensions
+  - nbconvert
+  - nbformat
+  - jupyterlab
+  - nodejs
+  - scikit-image
+  - ipypublish
+  - pip:
+      - jupyterlab_latex
+      - jupyterlab-git
